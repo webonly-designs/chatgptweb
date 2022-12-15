@@ -17,5 +17,5 @@ export default async function (req, res) {
 }
 
 function generatePrompt(name, relation) {
-  return `possible Christmas wish text message you could use for your ${relation} ${name}`;
+  return `possible Christmas wish email you could use for your ${relation} ${name}`;
 }
